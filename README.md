@@ -67,16 +67,13 @@ event-management-system
 
 ## 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/event-management-system.git
-
 - cd event-management-system
 
 # Backend Setup
 Go to the server folder
-
 - cd server
 
 Install dependencies
-
 - npm install
 
 Create `.env` file inside **server**
@@ -86,7 +83,6 @@ MONGO_URI=mongodb://localhost:27017/event-management
 JWT_SECRET=your_secret_key
 
 Run the backend server
-
 - node index.js
 
 Backend will run at
@@ -107,4 +103,4 @@ Run the frontend
 - npm run dev
 
 Frontend will run at
-- http://localhost:3000
+http://localhost:3000
